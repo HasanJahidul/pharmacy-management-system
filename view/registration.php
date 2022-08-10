@@ -43,7 +43,9 @@
     </form>
     <h4 id="response"> </h4>
     <div class="container" >
-        <a href="login.php" ><button type="button" class="cancelbtn">Login</button>
+        <a href="login.php" ><button type="button" class="btn-danger">Login</button>
+        </a>
+        <a href="index.html" ><button type="button" class="btn-primary">Home</button>
         </a>
     </div>
 

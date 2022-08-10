@@ -2,15 +2,7 @@
     include('header.php');
     require_once('../model/inventoryDB.php');
     $result=getAllStock();
-    if(isset($_GET['id'])){
-        $id=$_GET['delete'];
-        deletePharmacist($id);
-    }
-    function delete($id){
-        //$dResult=deletePharmacist($id);
-        echo $id;
-        print_r($id);
-    }
+
 ?>
 
 <div class="form-container">
